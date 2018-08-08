@@ -3,4 +3,110 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="primary">#546E7A</color>
+    <color name="primary_dark">#324249</color>
+    <color name="accent">#C0CA33</color>
+    <color name="primary_light">#B0BEC5</color>
+
+    <color name="white">#F5F5F5</color>
+    <color name="white_alpha">#8FFF</color>
+    <color name="black_alpha">#2000</color>
+
+    <color name="green_600">#43A047</color>
+    <color name="orange_600">#F4511E</color>
+    <color name="teal">#B2DFDB</color>
+
+    <color name="cyan">#0097A7</color>
+    <color name="light_green">#689F38</color>
+    <color name="dark_green">#33691E</color>
+
+    <!-- font -->
+
+    <color name="black">#000000</color>
+    <color name="gray">#666666</color>
+    <color name="red">#ff0000</color>
+    <color name="transparent">#0000</color>
+
+    <!-- Common -->
+    <color name="color_common_bg1">#ffffff</color>
+    <color name="color_common_bg1_0">#ffffff</color>
+    <color name="color_common_bg1_0_4">#66ffffff</color>
+    <color name="color_common_bg1_dim_0_3">#4Cffffff</color>
+    <color name="color_common_bg1_dim_0_8">#CCffffff</color>
+    <color name="color_common_bg2">#f3f3f3</color>
+    <color name="color_common_bg3">#000000</color>
+    <color name="color_common_bg3_dim_0_9">#E6000000</color>
+    <color name="color_common_bg3_dim_0_8">#CC000000</color>
+    <color name="color_common_bg3_dim_0_7">#B2000000</color>
+    <color name="color_common_bg3_dim_0_0_2">#05000000</color>
+    <color name="color_common_bg3_dim_0_0_7">#12000000</color>
+    <color name="color_common_bg3_dim_0_1">#19000000</color>
+    <color name="color_common_bg3_dim_0_2">#33000000</color>
+    <color name="color_common_bg3_dim_0_3">#4C000000</color>
+    <color name="color_common_bg4">#8f8f8f</color>
+    <color name="color_common_bg5">#b3b3b4</color>
+    <color name="color_common_point_dim_0_7">#B23F51B5</color>
+
+    <color name="color_common_line1">#dddddd</color>
+    <color name="color_common_line2">#f3f3f3</color>
+    <color name="color_common_line3">#b3b3b4</color>
+
+    <color name="color_common_point">#3566d6</color>
+    <color name="color_common_point_0_3">#4c3566d6</color>
+    <color name="color_common_point_0_4">#663566d6</color>
+    <color name="color_common_point_0_6">#993566d6</color>
+    <color name="color_common_point_0_8">#CC3566d6</color>
+    <color name="color_common_point_0_9">#E63566d6</color>
+
+    <color name="color_common_board">#0b245e</color>
+    <color name="color_common_delete">#d6354c</color>
+
+    <!-- font -->
+    <color name="color_font_font1">#1f1f1f</color>
+    <color name="color_font_font1_0_3">#4D1f1f1f</color>
+    <color name="color_font_font1_0_6">#991f1f1f</color>
+    <color name="color_font_font2">#8f8f8f</color>
+    <color name="color_font_font2_0_6">#998f8f8f</color>
+    <color name="color_font_font3">#b3b3b4</color>
+    <color name="color_font_font4">#ffffff</color>
+    <color name="color_font_font4_0_3">#4dffffff</color>
+    <color name="color_font_font5">#4f4f4f</color>
+    <color name="color_font_font5_bg">#dddddd</color>
+
+    <!-- BG -->
+    <color name="color_bg_e1e1e1">#e1e1e1</color>
+
+    <!--플레이어 컨트롤러-->
+
+    <color name="color_player_controller_section">@color/color_common_bg4</color>
+    <color name="color_player_controller_stack">#0b245e</color>
+    <color name="color_player_controller_full_mode_stack">#0c2f80</color>
+    <color name="color_player_controller_seek_bar">#3566d6</color>
+    <color name="color_player_controller_time_interval1">#e1e1e1</color>
+    <color name="color_player_controller_time_interval2">#b3b3b4</color>
+    <color name="color_player_controller_full_mode_time_interval">#8f8f8f</color>
+
+    <!--메이커 컨트롤러-->
+    <color name="color_maker_controller_section">#3f3f3f</color>
+    <color name="color_maker_controller_section_dim">@color/color_common_bg4</color>
+    <color name="color_maker_controller_seek_bar">#3566d6</color>
+    <color name="color_maker_controller_remove_section_seek_bar">#d6354c</color>
+
+    <!--회원 가입 및 로그인-->
+    <color name="color_account_facebook_button">#3b5997</color>
+
+    <!--프로필-->
+    <color name="color_profile_preview_background">#1f1f1f</color>
+
+    <!--Notifications-->
+    <color name="color_notifications_read_item_background">#e6e6e6</color>
+
+    <!--ShareDialog-->
+    <color name="color_share_dialog">#b3b3b4</color>
+
+    <!--Player-->
+    <color name="color_player_time_0_1">#ffffff</color>
+    <color name="color_player_time_0_2">#b3b3b4</color>
+
 </resources>

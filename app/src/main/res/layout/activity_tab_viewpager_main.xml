@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/black_layout"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:orientation="horizontal"
+            android:visibility="gone" />
+
+        <com.jeon.wh_application.testSample.playerlayoutTest.CustomDrawerLayout
+            android:id="@+id/drawer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tabLayout"
+            android:layout_toRightOf="@+id/black_layout">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:id="@+id/drawer_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginEnd="-65dp"
+                android:layout_marginRight="-65dp"
+                android:background="#009688"
+                android:fitsSystemWindows="true"
+                android:gravity="center"
+                android:text="DRAWERLAYOUT"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+        </com.jeon.wh_application.testSample.playerlayoutTest.CustomDrawerLayout>
+
+        <!--<android.support.v4.widget.DrawerLayout-->
+        <!--android:id="@+id/drawer2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_toRightOf="@+id/black_layout"-->
+        <!--android:layout_below="@id/tabLayout">-->
+
+
+        <!--</android.support.v4.widget.DrawerLayout>-->
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tabLayout"
+            android:text="button"
+            android:textAllCaps="false"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/menu_Layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tabLayout"
+            android:background="@color/black"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="네번째"
+                android:textColor="@color/white"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

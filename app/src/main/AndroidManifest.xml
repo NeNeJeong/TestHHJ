@@ -16,6 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".stickyHeaderTest.StickyHeaderActivity"/>
+        <activity android:name=".testLayout.PlayerLayoutActivity"/>
+        <activity android:name=".testLayout.TabViewPagerActivity"/>
+        <activity android:name=".opencloseTest.OpenCloseActivity"/>
+        <activity android:name=".testLayout.VeaverPlayer2Activity"/>
     </application>
 
 </manifest>
