@@ -4,7 +4,7 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.example.hjhan.testhhj"
-        minSdkVersion 15
+        minSdkVersion 19
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -27,6 +27,8 @@ dependencies {
     compile 'org.zakariya.stickyheaders:stickyheaders:0.7.6'
     compile 'com.brandongogetap:stickyheaders:0.4.9'
     compile 'org.zakariya.stickyheaders:stickyheaders:0.7.6'
+    testCompile 'junit:junit:4.12'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:8.5.1'
     compile 'com.jakewharton:butterknife:8.8.1'
     provided 'org.projectlombok:lombok:1.16.16'
     annotationProcessor "org.projectlombok:lombok:1.16.16"
