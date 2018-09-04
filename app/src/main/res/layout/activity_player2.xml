@@ -19,8 +19,8 @@
             <LinearLayout
                 android:id="@+id/movieTop_Layout"
                 android:layout_width="match_parent"
-                android:layout_weight="1"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal">
 
                 <RelativeLayout
@@ -45,7 +45,7 @@
             <View
                 android:id="@+id/movieBottom_Layout"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
 
                 android:orientation="horizontal" />
 
@@ -62,15 +62,15 @@
 
             <View
                 android:id="@+id/tabTop_Layout"
-                android:layout_weight="1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:orientation="horizontal" />
 
             <LinearLayout
                 android:id="@+id/tabBottom_Layout"
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
+                android:layout_height="match_parent"
                 android:orientation="horizontal">
 
                 <View
@@ -79,6 +79,7 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1" />
 
+                <!--tab 영역-->
                 <RelativeLayout
                     android:id="@+id/tabBottomRight_Layout"
                     android:layout_width="match_parent"
@@ -167,27 +168,28 @@
                                 android:id="@+id/tabLayout_layout"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content">
-                            <android.support.design.widget.TabLayout
-                                android:id="@+id/tabLayout"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:visibility="visible" />
+
+                                <android.support.design.widget.TabLayout
+                                    android:id="@+id/tabLayout"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:visibility="visible" />
 
                                 <LinearLayout
                                     android:layout_width="200dp"
-                                    android:orientation="vertical"
-                                    android:layout_height="wrap_content">
-                                <Button
-                                    android:id="@+id/drawer_Button"
-                                    android:layout_width="50dp"
-                                    android:layout_height="50dp"
-                                    android:text="D"
-                                    />
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <Button
+                                        android:id="@+id/drawer_Button"
+                                        android:layout_width="50dp"
+                                        android:layout_height="50dp"
+                                        android:text="D" />
                                 </LinearLayout>
 
-                                </RelativeLayout>
+                            </RelativeLayout>
 
-                            <com.example.hjhan.testhhj.testLayout.CustomDrawerLayout
+                            <com.example.hjhan.testhhj.playerTest.CustomDrawerLayout
                                 android:id="@+id/drawer"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -196,7 +198,7 @@
                                 <FrameLayout
                                     android:id="@+id/fragment_frameLayout"
                                     android:layout_width="match_parent"
-                                    android:layout_height="match_parent"/>
+                                    android:layout_height="match_parent" />
 
                                 <TextView
                                     android:id="@+id/drawer_TextView"
@@ -212,21 +214,21 @@
                                     android:textColor="@color/white"
                                     android:textSize="30dp" />
 
-                            </com.example.hjhan.testhhj.testLayout.CustomDrawerLayout>
+                            </com.example.hjhan.testhhj.playerTest.CustomDrawerLayout>
 
                             <LinearLayout
                                 android:layout_width="200dp"
-                                android:orientation="vertical"
                                 android:layout_height="match_parent"
+                                android:orientation="vertical"
                                 android:visibility="gone">
 
 
-                            <Button
-                                android:background="@color/accent"
-                                android:id="@+id/touchLayout"
+                                <Button
+                                    android:id="@+id/touchLayout"
+                                    android:layout_width="50dp"
 
-                                android:layout_width="50dp"
-                                android:layout_height="50dp" />
+                                    android:layout_height="50dp"
+                                    android:background="@color/accent" />
                             </LinearLayout>
 
                         </RelativeLayout>

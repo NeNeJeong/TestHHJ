@@ -6,7 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.hjhan.testhhj.testLayout.VeaverPlayer2Activity;
+import com.example.hjhan.testhhj.playerTest.VeaverPlayer2Activity;
+import com.example.hjhan.testhhj.stickyHeaderTest.StickyHeaderActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void moveActivity() {
-        startActivity(new Intent(this, VeaverPlayer2Activity.class));
+        startActivity(new Intent(this, StickyHeaderActivity.class));
     }
 }

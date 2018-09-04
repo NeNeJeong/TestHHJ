@@ -1,4 +1,4 @@
-package com.example.hjhan.testhhj.testLayout;
+package com.example.hjhan.testhhj.playerTest;
 
 import android.app.Activity;
 import android.os.Bundle;

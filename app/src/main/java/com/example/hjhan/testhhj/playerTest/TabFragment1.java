@@ -1,4 +1,4 @@
-package com.example.hjhan.testhhj.testLayout;
+package com.example.hjhan.testhhj.playerTest;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
