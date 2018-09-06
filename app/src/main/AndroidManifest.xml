@@ -22,7 +22,8 @@
         <activity android:name=".playerTest.TabViewPagerActivity"/>
         <activity android:name=".opencloseTest.OpenCloseActivity"/>
         <activity android:name=".playerTest.VeaverPlayer2Activity"/>
-        <activity android:name=".GestureActivity"/>
+        <activity android:name=".touchTest.GestureActivity"/>
+        <activity android:name=".customViewTest.MyProgressBarActivity"/>
     </application>
 
 </manifest>

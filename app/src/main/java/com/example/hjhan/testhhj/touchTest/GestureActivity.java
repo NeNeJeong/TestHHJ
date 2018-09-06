@@ -1,4 +1,4 @@
-package com.example.hjhan.testhhj;
+package com.example.hjhan.testhhj.touchTest;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -7,6 +7,8 @@ import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.TextView;
+
+import com.example.hjhan.testhhj.R;
 
 /**
  * GestureActivity

@@ -6,8 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.hjhan.testhhj.playerTest.VeaverPlayer2Activity;
-import com.example.hjhan.testhhj.stickyHeaderTest.StickyHeaderActivity;
+import com.example.hjhan.testhhj.customViewTest.MyProgressBarActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -30,6 +29,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void moveActivity() {
-        startActivity(new Intent(this, StickyHeaderActivity.class));
+        startActivity(new Intent(this, MyProgressBarActivity.class));
     }
 }
